@@ -3,55 +3,58 @@
 <html lang="en-us">
 
 <head>
-
-  <meta charset="UTF-8">
-  <!-- We need the following responsive meta tag to ensure things scale correctly across varying
-  devices. -->
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-  <title>Kouassi Kevin Kouadio - Web developer</title>
-
-  <!-- We need to bring in the bootstrap CSS -->
-  <link
-    rel="stylesheet"
-    href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-    crossorigin="anonymous"/>
-
-  <link rel="stylesheet" href="style.css">  
-</head>
-
-<body>
-  <header>  
-    <nav class="border-bottom" class="navbar navbar-expand-lg navbar-light bg-light">
+  <head>
+    <meta charset="UTF-8">
+    <!-- responsive meta tag to ensure things scale correctly across varying devices. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+    <title>Kouassi Kevin Kouadio - Web developer</title>
+  
+    <!-- bootstrap CSS link-->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"/>
+    <!--additional stylesheet-->
+    <link rel="stylesheet" href="assets/css/style.css">  
+  </head>
+  
+  <body>
+  <!-- header -->
+  <header>
+      <nav class="border-bottom" class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
-            <div class="row">
-                <div class="col-sm-4">
-                   <div class="p-2 sm-4 bg-info" class="col-sm-4">
-                    <a class="navbar-brand" href="index.html"><h2 class="text-white">Kouassi Kevin Kouadio</h2></a>
-                </div>
-                </div>
-                <div class="col-sm-4">
-                </div>    
-                <div class="p-3 col-sm-4">
-                   <ul class="nav justify-content-end">
-                    <li class="nav-item">
-                      <a class="nav-link" href="index.html">About</a>
-                    </li>
-                        <span class="border-right"></span>
-                    <li class="nav-item">
-                      <a class="nav-link" href="portofolio.html">Portofolio</a>
-                    </li>
-                        <span class="border-right"></span>
-                    <li class="nav-item">
-                      <a class="nav-link active" href="contact.html">Contact</a>
-                    </li>
-                  </ul>
-                </div>
+          <div class="row">
+            <!-- My name/logo -->
+            <div class="col-sm-4">
+              <div class="p-2 sm-4 bg-info" class="col-sm-4">
+                <a class="navbar-brand" href="index.html"><h2 class="text-white">Kouassi Kevin Kouadio</h2></a>
+              </div>
             </div>
-    </div>
-  </nav>
+            <div class="col-sm-4">
+            </div>   
+            <!-- Nav buttons --> 
+            <div class="p-3 col-sm-4">
+              <ul class="nav justify-content-end">
+                <li class="nav-item">
+                  <a class="nav-link active" href="index.html">About</a>
+                </li>
+                  <span class="border-right"></span>
+                <li class="nav-item">
+                  <a class="nav-link" href="portofolio.html">Portofolio</a>
+                </li>
+                  <span class="border-right"></span>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+      </div>
+    </nav>
 </header>
+<!-- Content-->
 <main>
   <div class="container">
     <div class="row">
@@ -60,50 +63,63 @@
     </div>
     <br>
     <br>
-
-    
-            <div class="row">
-                <div class="col-sm-6">
-                    <div class="card">
-                        <div class="card-header">
-                          <h3 class="text-info">Contact</h3>
-                        </div>
-                        <div class="card-body">
-                            <form>
-                                <div class="form-group">
-                                  <label for="exampleFormControlInput1">Name</label>
-                                  <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Bruce Lee">
-                                </div>
-                                <div class="form-group">
-                                    <label for="exampleFormControlInput1">Email address</label>
-                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-                                  </div>
-                                
-                                <div class="form-group">
-                                  <label for="exampleFormControlTextarea1">Message</label>
-                                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                                </div>
-                              </form>
-                          <a href="#" class="btn btn-info">Submit</a>
-                        </div>
-                      </div>
-                </div>
-                
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="card">
+          <div class="card-header">
+            <h3 class="text-info">Contact</h3>
+          </div>
+          <div class="card-body">
+            <form>
+              <div class="form-group">
+                <label for="exampleFormControlInput1">Name</label>
+                  <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Bruce Lee">
               </div>
+              <div class="form-group">
+                <label for="exampleFormControlInput1">Email address</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlTextarea1">Message</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+            </form>
+                <a href="#" class="btn btn-info">Submit</a>
           </div>
         </div>
+      </div>          
+      <!--Social media widgets-->
+      <div class="col-lg-4">
+        <div class="card">
+          <div class="card-body">
+            <h3 class="p-2 border-bottom text-info">Connect with Me</h3>
+            <br>
+              <div class="row">
+                <div class="col-lg-4">
+                  <a href= "https://github.com/kevkouadio" target="blank"><img src="assets/images/github-icon.png" alt="github-icon" width="90px" height="90px"></a>
+                </div>
+                <div class="col-lg-4">
+                  <a href= "https://www.linkedin.com/in/kouassi-kevin-kouadio-b731a071/" target="blank"><img src="assets/images/Linkedin-icon.png" alt="linked-icon" width="90px" height="90px"></a>
+                </div>
+                <div class="col-lg-4">
+                  <a href= "https://www.facebook.com/kevinkouadioboban" target="blank"><img src="assets/images/Facebook_icon.svg.png" alt="facebook-icon" width="90px" height="90px"></a>
+                </div>
+              </div> 
+          </div>
+        </div>
+      </div>
+    </div>          
+  </div>
     <br>
     <br>
 </main>
-
-
-  <footer class="card-footer text-muted bg-dark">
+<!-- sticky footer -->
+<footer class="card-footer text-muted bg-dark">
     <div class="p-3 row">
       <div class="col-lg-5"> 
-      </div>
+    </div>
 Kouassi Kevin Kouadio Copyright © 2020
-    </footer>
+</footer>
   
 </body>
-
 </html>
