@@ -1,0 +1,22 @@
+body {
+    
+}
+
+main {
+    background-image: url("pattern.jpg");   
+}
+
+.thumbnail {
+    position: relative;
+    left: 20px;
+}
+
+.caption {
+    position: absolute;
+    top: 45%;
+    left: 0;
+    width: 100%;
+}
+@Jeme1207
+
+
