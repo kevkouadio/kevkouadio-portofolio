@@ -1,11 +1,7 @@
 /* background image */
 main {
-<<<<<<< HEAD
     background-image: url("/https://assets.awwwards.com/awards/images/2015/04/pattern.jpg");
     border-bottom: 10px solid #4aaaa5;
-=======
-    background-image: url("https://assets.awwwards.com/awards/images/2015/04/pattern.jpg");   
->>>>>>> e1866257f773d08b5413721779d1a938fe0c6d56
 }
 
 /* pages images */
