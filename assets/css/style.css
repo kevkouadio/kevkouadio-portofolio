@@ -1,6 +1,7 @@
-
+/* background image */
 main {
-    background-image: url("/Users/STEPHENBITI/kekouadio-portofolio/assets/images/pattern.jpg");   
+    background-image: url("/https://assets.awwwards.com/awards/images/2015/04/pattern.jpg");
+    border-bottom: 10px solid #4aaaa5;
 }
 
 /* pages images */
@@ -8,9 +9,13 @@ img {
     border: 1px solid #ddd;
     border-radius: 4px;
     padding: 5px;
+} 
+
+.navbar-nav > li > a:hover {
+    color: #4aaaa5;
 }
 
-/* portofolio pictures texts */
+/* portofolio pictures text */
 .thumbnail {
     position: relative;
     left: 20px;
@@ -21,6 +26,70 @@ img {
     left: 0;
     width: 100%;
 }
+
+/* media query */
+
+/*tablet size*/
+@media only screen and (max-width: 1024px) {
+
+    #name {
+        box-sizing: border-box;
+        flex-basis: 50%;
+        display: block;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        max-width: 50%;
+        padding-left: 15px;
+        padding-right: 15px;
+        position: relative;
+        flex-grow: 0;
+        flex-shrink: 0;
+        text-size-adjust: 100%;
+                
+    }
+
+    #col-sm-2 {
+        width: 0px;
+        visibility: hidden;
+        display: none;
+    }
+    footer {
+        position: relative;
+        bottom: 0;
+    }
+}
+/* phone size*/
+@media only screen and (max-width: 414px) {
+
+    #name {
+        box-sizing: border-box;
+        flex-basis: 50%;
+        display: block;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        max-width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+        position: relative;
+        flex-grow: 0;
+        flex-shrink: 0;
+        text-size-adjust: 100%;
+                
+    }
+
+    #col-sm-2 {
+        width: 0px;
+        visibility: hidden;
+        display: none;
+    }
+
+}
+
+
+
+
 
 
 
