@@ -1,6 +1,6 @@
 /* background image */
 main {
-    background-image: url("/https://assets.awwwards.com/awards/images/2015/04/pattern.jpg");
+    background-image: url("https://assets.awwwards.com/awards/images/2015/04/pattern.jpg");
     border-bottom: 10px solid #4aaaa5;
 }
 
