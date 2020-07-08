@@ -1,7 +1,9 @@
-header {
+nav {
     border-bottom: 1px solid gray;
 }
-
+.border-bottom {
+    border-width: 5px;
+}
 /* background image */
 main {
     background-image: url("https://assets.awwwards.com/awards/images/2015/04/pattern.jpg");
