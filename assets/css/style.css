@@ -1,13 +1,13 @@
-nav {
+header {
+    background-color:white;
     border-bottom: 1px solid gray;
 }
 .border-bottom {
     border-width: 5px;
 }
 /* background image */
-main {
+body {
     background-image: url("https://assets.awwwards.com/awards/images/2015/04/pattern.jpg");
-    border-bottom: 10px solid #4aaaa5;
 }
 
 /* pages images */
@@ -31,6 +31,12 @@ img {
     top: 45%;
     left: 0;
     width: 100%;
+}
+
+footer {
+    border-top: 10px solid #4aaaa5;
+    position: relative;
+    bottom: 0;
 }
 
 /* media query */
@@ -61,10 +67,20 @@ img {
         display: none;
     }
     footer {
-        position: relative;
+        position: absolute;
         bottom: 0;
+        border-top: 10px solid #4aaaa5;
+        width: 100%;
     }
 }
+
+@media only screen and (max-width: 768px) {
+
+    footer {
+        border-top: 10px solid #4aaaa5;
+        position: relative;
+    }
+
 /* phone size*/
 @media only screen and (max-width: 414px) {
 
@@ -89,6 +105,11 @@ img {
         width: 0px;
         visibility: hidden;
         display: none;
+    }
+
+    footer {
+        border-top: 10px solid #4aaaa5;
+        position: relative;
     }
 
 }
