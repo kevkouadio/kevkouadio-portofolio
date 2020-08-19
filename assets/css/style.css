@@ -5,6 +5,12 @@ header {
 .border-bottom {
     border-width: 5px;
 }
+
+#pBox, #sBox {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 /* background image */
 body {
     background-image: url("https://assets.awwwards.com/awards/images/2015/04/pattern.jpg");
@@ -39,9 +45,9 @@ img {
 
 footer {
     border-top: 10px solid #4aaaa5;
-    position: relative;
+    position: fixed;
     bottom: 0;
-    width: 100%;
+    width: 100%;    
 }
 
 /* media query */
@@ -71,6 +77,10 @@ footer {
         visibility: hidden;
         display: none;
     }
+    #bio {
+        text-align: start;
+        padding-bottom: 15px;
+    }
 
 }
 
@@ -78,7 +88,15 @@ footer {
 
     footer {
         border-top: 10px solid #4aaaa5;
-        position: relative;
+        bottom: 0;
+    }
+    #bio {
+        text-align: start;
+        padding-bottom: 15px;
+    }
+
+    #sBox {
+        max-width: 45%;
     }
 
 }
@@ -114,7 +132,9 @@ footer {
         visibility: hidden;
         display: none;
     }
-
+    #sBox {
+        max-width: 90%;
+    }
 
 }
 

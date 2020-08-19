@@ -21,49 +21,43 @@
 <body>
 <!-- header -->
 <header>
-    <nav class="border-bottom" class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container">
-        <div class="row">
-          <!-- My name/logo -->
-          <div id="name"class="col-sm-4">
-            <div class="p-2 sm-4 bg-info" class="col-sm-4 bg-info">
-              <a class="navbar-brand" href="index.html"><h2 class="text-white">Kouassi Kevin Kouadio</h2></a>
-            </div>
-          </div>
-          <div id="col-sm-2"class="col-sm-2">
-          </div> 
-          <!-- Nav buttons --> 
-          <div id="navbox"class="p-3 col-sm-6">
-            <ul class="nav justify-content-end">
-              <li class="nav-item">
-                <a class="nav-link active" href="index.html">About</a>
-              </li>
-                <span class="border-right"></span>
-              <li class="nav-item">
-                <a class="nav-link" href="portofolio.html">Portofolio</a>
-              </li>
-                <span class="border-right"></span>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-              </li>
-            </ul>
+  <nav class="border-bottom" class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <div class="row">
+        <!-- My name/logo -->
+        <div class="col-sm-4"id="name">
+          <div class="p-2 sm-4 bg-info" class="col-sm-4">
+            <a class="navbar-brand" href="index.html"><h2 class="text-white">Kouassi Kevin Kouadio</h2></a>
           </div>
         </div>
-    </div>
-  </nav>
+        <div id="col-sm-2"class="col-sm-2">
+        </div>   
+        <!-- Nav buttons --> 
+        <div di="navbox"class="p-3 col-sm-6">
+          <ul class="nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">About</a>
+            </li>
+              <span class="border-right"></span>
+            <li class="nav-item">
+              <a class="nav-link" href="portofolio.html">Portofolio</a>
+            </li>
+              <span class="border-right"></span>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+  </div>
+</nav>
 </header>
 <!-- content -->
 <main>
   <div class="container">
-    <div class="row">
-      <div class="col-lg-12"> 
-      </div>
-    </div>
-    <br>
-    <br>
   <!-- About me -->
         <div class="row">
-          <div class="col-lg-8">
+          <div  id="pBox"class="col-lg-8">
             <div class="card">
               <div class="card-body">
                 <h2 class="p-2 border-bottom text-info">About Me</h2>
@@ -72,23 +66,22 @@
                     <div class="col-lg-4">
                       <img src="assets/images/IMG-0366.jpg" alt="smiling Kevin" width="200px" height="300px">
                     </div>
-                    <div class="col-lg-8">
+                    <div id="bio" class="col-lg-8">
                     <!-- text -->
                       <p>Before coming to the USA, I worked as an administrative agent in the African office of the International Basketball Federation - FIBA. 
                         I have a sense of duty well done and stress management since I was managing the administrative organization of the all African Basketball 
-                        technical staff training. I was also a Basketball referee in my spare time. 
-                        Here in the USA I worked for two years as a customer service agent and quality control auditor for three airlines. 
+                        technical staff training. I was also a Basketball referee in my spare time.</p> 
+                        <p>Here in the USA I worked for two years as a customer service agent and quality control auditor for three airlines. 
                         I have always been passionate by technology. I dont have too much trouble to understand it maybe because of my 
                         programming genes as my dad was a programmer. As you can see, I have a very good ability to adapt in addition to learn quickly. 
                         It is for that reason, I decided to devote myself to web development.</p>
                     </div>
-                  </div> 
-                  
+                  </div>  
               </div>
             </div>
           </div>
           <!--Social media widgets-->
-            <div class="col-lg-4">
+            <div id="sBox" class="col-lg-4">
               <div class="card">
                 <div class="card-body">
                   <h3 class="p-2 border-bottom text-info">Connect with Me</h3>
@@ -108,9 +101,10 @@
               </div>
             </div>
         </div> 
-<br>
-<br>
 </main>
+<br>
+<br>
+<br>
 <!--footer-->
 <footer class="footer text-muted bg-dark" class="border border-info">
   <div class="container">
