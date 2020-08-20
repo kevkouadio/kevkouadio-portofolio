@@ -1,4 +1,4 @@
-Week 2 Rutgers Full stack developper bootcamp homework - Portfolio
+## Week 2 Rutgers Full stack developper bootcamp homework - Portfolio
 
 Vew link : https://kevkouadio.github.io/kevkouadio-portofolio/
 
@@ -28,6 +28,6 @@ Styles.css
 Contains styling and layout for all html pages
 
 Here are the screenshot: 
-[My portofolio Demo](./assets/images/Screen-Shot-1.png)
-[My portofolio Demo](./assets/images/Screen-Shot-1.png)
+![My portofolio Demo](./assets/images/Screen-Shot-1.png)
+![My portofolio Demo](./assets/images/Screen-Shot-2.png)
  
