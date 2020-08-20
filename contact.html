@@ -28,7 +28,7 @@
             <!-- My name/logo -->
             <div class="col-sm-4"id="name">
               <div class="p-2 sm-4 bg-info" class="col-sm-4">
-                <a class="navbar-brand" href="index.html"><h2 class="text-white">Kouassi Kevin Kouadio</h2></a>
+                <a class="navbar-brand" href="home.html"><h2 class="text-white">Kouassi Kevin Kouadio</h2></a>
               </div>
             </div>
             <div id="col-sm-2"class="col-sm-2">
@@ -47,6 +47,9 @@
                 <li class="nav-item">
                   <a class="nav-link" href="contact.html">Contact</a>
                 </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="resume.html">Resume</a>
+              </li>
               </ul>
             </div>
           </div>
@@ -62,10 +65,10 @@
           <div class="card-body">
             <h2 class="p-2 border-bottom text-info">Contact</h2>
             <div class="card-body">
-              <form>
+              <form action="mailto:kevkouadio@gmail.com" method="get" enctype="text/plain">
                 <div class="form-group">
                   <label for="exampleFormControlInput1">Name</label>
-                    <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Bruce Lee">
+                    <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Your Name">
                 </div>
                 <div class="form-group">
                   <label for="exampleFormControlInput1">Email address</label>
@@ -75,8 +78,8 @@
                   <label for="exampleFormControlTextarea1">Message</label>
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                 </div>
-              </form>
-                  <a href="#" class="btn btn-info">Submit</a>
+              <input class="btn btn-info" type="submit" name="submit" value="Submit"/>
+            </form>
             </div>
           </div>
         </div>
