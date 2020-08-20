@@ -6,6 +6,10 @@ header {
     border-width: 5px;
 }  
 
+.card {
+    box-shadow: 3px 3px 3px 3px yellow;
+}
+
 #homeContainer {
     margin: auto;
     padding-top: 5%;    

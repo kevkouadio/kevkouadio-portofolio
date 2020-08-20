@@ -13,7 +13,8 @@ To Execute File:
 Open in browser
 
 Features:
-Three HTML Pages
+Five HTML Pages
+home.html
 Index.html
 Contains About Me section with Navigation
 Provides summary of background and experience
@@ -21,6 +22,12 @@ Portfolio Page
 Contains examples of previous projects
 Contact Page
 Contains contact information
+and my resume 
 One CSS Page
 Styles.css
 Contains styling and layout for all html pages
+
+Here are the screenshot: 
+[My portofolio Demo](./assets/images/Screen-Shot-1.png)
+[My portofolio Demo](./assets/images/Screen-Shot-1.png)
+ 
