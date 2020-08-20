@@ -4,6 +4,15 @@ header {
 }
 .border-bottom {
     border-width: 5px;
+}  
+
+#homeContainer {
+    margin: auto;
+    padding-top: 5%;    
+}
+
+#homeBio {
+    margin: auto;
 }
 
 #pBox, #sBox {
@@ -13,7 +22,7 @@ header {
 
 /* background image */
 body {
-    background-image: url("https://assets.awwwards.com/awards/images/2015/04/pattern.jpg");
+    background-image: url("Spring-Nature-HD-Backgrounds.jpg");
 }
 
 /* pages images */
