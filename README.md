@@ -1,6 +1,6 @@
 ## Week 2 Rutgers Full stack developper bootcamp homework - Portfolio
 
-Vew link : https://kevkouadio.github.io/kevkouadio-portofolio/
+Vew link : https://kevkouadio.github.io/kevkouadio-portofolio/home.html
 
 Summary
 Use of bootstrap CSS to creat this portofolio.
