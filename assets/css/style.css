@@ -27,6 +27,9 @@ header {
 /* background image */
 body {
     background-image: url("Spring-Nature-HD-Backgrounds.jpg");
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 /* pages images */
@@ -58,9 +61,7 @@ img {
 
 footer {
     border-top: 10px solid #4aaaa5;
-    position: fixed;
-    bottom: 0;
-    width: 100%;    
+    margin-top: auto;
 }
 
 .Dbtn {
@@ -116,10 +117,6 @@ form {
 
 @media only screen and (max-width: 812px) {
 
-    footer {
-        border-top: 10px solid #4aaaa5;
-        bottom: 0;
-    }
     #bio {
         text-align: start;
         padding-bottom: 15px;
